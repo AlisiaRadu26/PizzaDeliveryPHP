@@ -1,0 +1,94 @@
+.title-admins{
+    margin: 2.5% 20%;
+    font-size: 2rem;
+    color: #40513B;
+}
+.categories-list{
+    margin: 4% 20% 0% 22%;
+    width: 75%;
+}
+.categories-list form{
+    display: inline;
+    background-color: #40513B;
+    position: relative;
+}
+.categories-list form a{
+    padding: 2% 3%;
+    background-color: #A4BE7B;
+    border:none;
+    border-radius: 15px;
+    box-shadow: 3px -1px 15px 0px black;
+    color:#40513B;
+    font-size: 1.15rem;
+    font-weight:bolder;
+    margin-right: 1%;
+    cursor: pointer;
+    margin-right: 1%;
+    margin-left: 1%;
+    text-decoration: none;
+}
+.categories-list form a:hover,
+.categories-list form a:focus { 
+  background-color: #5F8D4E;
+  color: #EDF1D6;
+}
+.categories-list form a:active {
+  background-color: #5F8D4E;
+  color: rgb(255, 255, 255, .7);
+}
+.table-admins{
+    padding: 2% 25%;
+    margin: 0px auto;
+    text-align: center;
+    border:none;
+    outline: none;
+    width: 100%;
+    color: #20262E;
+}
+.table-admins tr th{
+    color: #40513B;
+    padding: 1% 0.5%;
+}
+
+.table-admins tr td a{
+    padding-left: 4px;
+}
+.fa-solid.fa-plus{
+    color: green;
+}
+.fa-solid.fa-trash-can{
+    color: #DC3535;
+    cursor: pointer;
+    transition: trasnform .2s;
+}
+.fa-solid.fa-trash-can:hover{
+    transform: scale(1.5);
+}
+.fa-solid.fa-pen-to-square{
+    color: #FFE15D;
+    cursor: pointer;
+    transition: trasnform .2s;
+}
+.fa-solid.fa-pen-to-square:hover{
+    transform: scale(1.5);
+}
+
+.fa-solid.fa-plus{
+    color: green;
+}
+.fa-solid.fa-trash-can{
+    color: #DC3535;
+    cursor: pointer;
+    transition: trasnform .2s;
+}
+.fa-solid.fa-trash-can:hover{
+    transform: scale(1.5);
+}
+.fa-solid.fa-pen-to-square{
+    color: #FFE15D;
+    cursor: pointer;
+    transition: trasnform .2s;
+}
+.fa-solid.fa-pen-to-square:hover{
+    transform: scale(1.5);
+}

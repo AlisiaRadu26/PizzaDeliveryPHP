@@ -1,0 +1,140 @@
+
+.title-delivery-boy{
+    margin: 2.5% 20%;
+    font-size: 2rem;
+    color: #40513B;
+}
+.categories-list{
+    margin: 3% 20% 0% 22%;
+    width: 75%;
+}
+.categories-list form{
+    display: inline;
+    background-color: #40513B;
+    position: relative;
+}
+.categories-list form button{
+    padding: 2% 2%;
+    background-color: #EDF1D6;
+    border:none;
+    border-radius: 15px;
+    box-shadow: 3px -1px 15px 0px black;
+    color:#40513B;
+    font-size: 1.15rem;
+    font-weight:bolder;
+    margin-right: 1.5%;
+    cursor: pointer;
+}
+.categories-list form button:hover,
+.categories-list form button:focus { 
+  background-color: #609966;
+  color: #EDF1D6;
+}
+.categories-list form button:active {
+  background-color: #609966;
+  color: rgb(255, 255, 255, .7);
+}
+.categories-list form .add-button{
+    margin-right: 0%;
+    margin-left: 35%;
+}
+.categories-list form .last-button{
+    margin-right: 0%;
+    margin-left: 33%;
+}
+.categories-list form a{
+    padding: 2% 3%;
+    background-color: #A4BE7B;
+    border:none;
+    border-radius: 15px;
+    box-shadow: 3px -1px 15px 0px black;
+    color:#40513B;
+    font-size: 1.15rem;
+    font-weight:bolder;
+    margin-right: 1%;
+    cursor: pointer;
+    margin-right: 0%;
+    margin-left: 30%;
+    text-decoration: none;
+}
+.categories-list form a:hover,
+.categories-list form a:focus { 
+  background-color: #5F8D4E;
+  color: #EDF1D6;
+}
+.categories-list form a:active {
+  background-color: #5F8D4E;
+  color: rgb(255, 255, 255, .7);
+}
+.info-container{
+    margin: 3% 20% 4% 20%;
+}
+.table-delivery-boy{
+    padding: 2% 10%;
+    margin: 0px auto;
+    text-align: center;
+    border:none;
+    outline: none;
+    width: 80%;
+    color: #20262E;
+}
+.table-delivery-boy tr th{
+    color: #40513B;
+    padding: 1% 0.5%;
+}
+.table-delivery-boy tr td{
+    padding: 0.5% 0.8%;
+}
+.table-delivery-boy tr td.off_duty{
+    background-color: grey;
+    border-radius: 15px;
+    width:60px;
+}
+.table-delivery-boy tr td.off_duty p{
+    background-color: white;
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    margin:0px;
+    float: right;
+}
+.table-delivery-boy tr td.off_duty span{
+    font-size: 16px;
+}
+.table-delivery-boy tr td.on_duty{
+    background-color: #609966;
+    border-radius: 15px;
+    width:60px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.table-delivery-boy tr td.on_duty p{
+    background-color: white;
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    margin:0px;
+    margin-right: 4px;
+    margin-left: 3px;
+}
+.table-delivery-boy tr td.on_duty span{
+    font-size: 16px;
+}
+.fa-solid.fa-trash-can{
+    color: #DC3535;
+    cursor: pointer;
+    transition: trasnform .2s;
+}
+.fa-solid.fa-trash-can:hover{
+    transform: scale(1.5);
+}
+.fa-solid.fa-pen-to-square{
+    color: #E7B10A;
+    cursor: pointer;
+    transition: trasnform .2s;
+    padding-left: 4px;
+}
+.fa-solid.fa-pen-to-square:hover{
+    transform: scale(1.5);
+}

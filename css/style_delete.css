@@ -1,0 +1,127 @@
+body{
+    background-color: #9DC08B;
+    margin:0px;
+    padding: 0px;
+}
+.wrapper{
+    background:#EDF1D6;
+    margin: 10% auto;
+    width:30%;
+    height:140px;
+    padding: 3% 4%;
+    border-radius: 15px;
+    border-top: 25px solid red;
+    box-shadow: 0px 10px 40px 0px black;
+    display:flex;
+    justify-content:center; 
+}
+.first-element{
+    flex:1fr;
+    padding: 1% 4%;
+    color: red;
+
+}
+.second-element{
+    flex:1fr;
+    align-self:center;
+    color: #393E46;
+}
+.delete-title{
+    color: #2C3333;
+    margin:0;
+}
+.buttons-container{
+    display:flex;
+    justify-content:center;
+}
+
+.btn-yes {
+  appearance: none;
+  background-color: red;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  margin-right: 4%;
+  transition: trasnform .2s;
+}
+
+.btn-yes:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.btn-yes:hover {
+  background-color: #C70D3A;
+  transform: scale(1.2);
+}
+
+.btn-yes:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.btn-yes:active {
+  background-color: #BB3B0E;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.btn-no {
+    appearance: none;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    transition: transform 0.2s;
+  }
+  
+.btn-no:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+  }
+  
+.btn-no:hover {
+    background-color: #2c974b;
+    transform: scale(1.2);
+  }
+  
+.btn-no:focus {
+    box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+    outline: none;
+  }
+  
+.btn-no:active {
+    background-color: #298e46;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+  }
