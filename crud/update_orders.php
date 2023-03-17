@@ -99,7 +99,7 @@
                 mysqli_stmt_bind_param($stmt, "sdssssi", $username, $total, $status, $payment_type, $date, $time, $id);
 
                 if(mysqli_stmt_execute($stmt)){
-                    header("location: http://localhost/pizza_delivery/orders.php");
+                    header("location: https://pizzadelivery.herokuapp.com/orders.php");
                     exit();
                 } else{
                     echo "Oops! Something went wrong. Please try again later.";
@@ -161,7 +161,7 @@
             </div>
 
             <input type="submit" name="submit" class="button">
-            <a href="http://localhost/pizza_delivery/orders.php" class="btn-no">X</a>
+            <a href="https://pizzadelivery.herokuapp.com/orders.php" class="btn-no">X</a>
             </form>
         </div>
 
