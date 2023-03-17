@@ -86,7 +86,7 @@
                 mysqli_stmt_bind_param($stmt, "ssssi", $first_name, $last_name, $email, $phone_number, $id);
 
                 if(mysqli_stmt_execute($stmt)){
-                    header("location: http://localhost/pizza_delivery/users.php");
+                    header("location: https://pizzadelivery.herokuapp.com/users.php");
                     exit();
                 } else{
                     echo "Oops! Something went wrong. Please try again later.";
@@ -136,7 +136,7 @@
             </div>
 
             <input type="submit" name="submit" class="button">
-            <a href="http://localhost/pizza_delivery/users.php" class="btn-no">X</a>
+            <a href="https://pizzadelivery.herokuapp.com/users.php" class="btn-no">X</a>
             </form>
         </div>
 
