@@ -10,7 +10,7 @@ if(isset($_POST["id"]) && !empty($_POST["id"])){
         mysqli_stmt_bind_param($stmt, "i", $param_id);
         
         if(mysqli_stmt_execute($stmt)){
-            header("location: http://localhost/pizza_delivery/delivery_boy.php");
+            header("location: https://pizzadelivery.herokuapp.com/delivery_boy.php");
             exit();
         } else{
             echo "Oops! Something went wrong. Please try again later.";
@@ -55,7 +55,7 @@ if(isset($_POST["id"]) && !empty($_POST["id"])){
                         <p>This action can not be undone!</p>
                         <p class="buttons-container">
                             <input type="submit" value="Yes" class="btn-yes">
-                            <a href="http://localhost/pizza_delivery/delivery_boy.php" class="btn-no">No</a>
+                            <a href="https://pizzadelivery.herokuapp.com/delivery_boy.php" class="btn-no">No</a>
                         </p>
                     </div>
                 </form>
