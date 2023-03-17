@@ -114,7 +114,7 @@
                             session_start();
                             $_SESSION = array();
                             session_destroy();
-                            header("location: http://localhost/pizza_delivery/index.php");
+                            header("location: https://pizzadelivery.herokuapp.com/index.php");
                             exit();
                         } else{
                             echo "Oops! Something went wrong. Please try again later.";
