@@ -82,7 +82,7 @@
                 // Attempt to execute the prepared statement
                 if(mysqli_stmt_execute($stmt)){
                     // Records updated successfully. Resdirect to landing page
-                    header("location: http://localhost/pizza_delivery/menu.php");
+                    header("location: https://pizzadelivery.herokuapp.com/menu.php");
                     exit();
                 } else{
                     echo "Oops! Something went wrong. Please try again later.";
@@ -137,7 +137,7 @@
             </div>
 
             <input type="submit" name="submit" class="button">
-            <a href="http://localhost/pizza_delivery/menu.php" class="btn-no">X</a>
+            <a href="https://pizzadelivery.herokuapp.com/menu.php" class="btn-no">X</a>
             </form>
         </div>
 
