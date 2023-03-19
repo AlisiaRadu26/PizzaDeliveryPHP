@@ -80,26 +80,29 @@
 }
 .table-delivery-boy tr th{
     color: #40513B;
-    padding: 1% 0.5%;
+    padding: 1% 0.8%;
 }
 .table-delivery-boy tr td{
-    padding: 0.5% 0.8%;
+    padding: 0.5% 0.6%;
 }
 .table-delivery-boy tr td.off_duty{
     background-color: grey;
     border-radius: 15px;
     width:60px;
+    height: 30px;
+    display: flex;
+    align-items: center;
 }
 .table-delivery-boy tr td.off_duty p{
     background-color: white;
     width:20px;
     height: 20px;
     border-radius: 50%;
-    margin:0px;
-    float: right;
+    margin-left: 4px;
 }
 .table-delivery-boy tr td.off_duty span{
     font-size: 16px;
+    margin-left: 3px;
 }
 .table-delivery-boy tr td.on_duty{
     background-color: #609966;
