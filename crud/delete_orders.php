@@ -38,6 +38,7 @@ if(isset($_POST["id"]) && !empty($_POST["id"])){
     <meta charset="UTF-8">
     <title>Delete Order</title>
     <link rel="stylesheet" href="../css/style_delete.css?version=2">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/258a11fd7c.js" crossorigin="anonymous"></script>
 </head>
 <body>
