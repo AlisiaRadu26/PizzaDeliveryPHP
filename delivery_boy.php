@@ -36,7 +36,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" type="text/css" href="css/style_index.css?version=9">
-    <link rel="stylesheet" type="text/css" href="css/style_delivery_boy.css?version=13">
+    <link rel="stylesheet" type="text/css" href="css/style_delivery_boy.css?version=15">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/258a11fd7c.js" crossorigin="anonymous"></script>
@@ -102,7 +102,7 @@
                         if($row['status'] == 1){
                             echo "<td class='on_duty'><p></p><span>ON</span></td>";
                         }elseif($row['status'] == 0){
-                            echo "<td class='off_duty'>OFF<p></p></td>";
+                            echo "<td class='off_duty'><span>OFF</span><p></p></td>";
                         }
                         echo "<td>
                             <a href='crud/delete_delivery_boy.php?id=".$row['id']."'><span class='fa-solid fa-trash-can'></span></a>
@@ -135,7 +135,7 @@
                         if($row['status'] == 1){
                             echo "<td class='on_duty'><p></p><span>ON</span></td>";
                         }elseif($row['status'] == 0){
-                            echo "<td class='off_duty'>OFF<p></p></td>";
+                            echo "<td class='off_duty'><span>OFF</span><p></p></td>";
                         }
                         echo "<td>
                             <a href='crud/delete_delivery_boy.php?id=".$row['id']."'><span class='fa-solid fa-trash-can'></span></a>
